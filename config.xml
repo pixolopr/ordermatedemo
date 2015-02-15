@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.toykraft.dealer" versionCode="1" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ordermate.mobile" versionCode="1" version="1.0.0">
 
-    <name>Toykraft Dealer</name>
+    <name>OrderMate</name>
 
     <description>
         Dealer's App
     </description>
 
-    <author href="toy-kraft.in" email="anujmehta@toy-kraft.com">
-        Toykraft
+    <author href="ordermate.in" email="chintan@wohlig.com">
+        OrderMate
     </author>
     
     <preference name="phonegap-version" value="3.6.3" />
