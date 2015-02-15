@@ -1,5 +1,5 @@
 <ion-modal-view>
-    <ion-header-bar class="bar-assertive">
+    <ion-header-bar class="bar-royal">
         <h1 class="title">Recent Orders</h1>
         <button class="button icon ion-close-round" ng-click="closerecent();"></button>
     </ion-header-bar>
@@ -20,7 +20,7 @@
                         <td>{{retailerrecent.timestamp}}</td>
                         <td>{{retailerrecent.quantity}}</td>
                         <td>{{retailerrecent.amount|decimal2|currency}}</td>
-                        <td><a class="button button-assertive button-small" ng-click="closerecent();" href="#/app/orderdetails/{{retailerrecent.id}}">Details</a>
+                        <td><a class="button button-royal button-small" ng-click="closerecent();" href="#/app/orderdetails/{{retailerrecent.id}}">Details</a>
                         </td>
                     </tr>
                 </tbody>
