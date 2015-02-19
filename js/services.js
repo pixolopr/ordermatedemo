@@ -167,9 +167,6 @@ var myservices = angular.module('myservices', [])
         setcart: function (newcart) {
             cart = newcart;
         },
-        getData: function () {
-            console.log(cart);
-        },
         addItemToCart: function (pid, pproductcode, pname, pquantity, pmrp, ptotalprice) {
             var isnew = true;
             var addquantityon = 0;

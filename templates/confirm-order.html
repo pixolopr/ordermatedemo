@@ -1,4 +1,4 @@
-<ion-view title="Toykraft Dealer">
+<ion-view title="ordermate">
     <ion-content class="has-header">
         <ion-nav-buttons side="right">
             <a class="button icon ion-home" href="#/app/home">
@@ -35,7 +35,7 @@
                         <td>{{singlecart.quantity}}</td>
                         <td>{{singlecart.totalprice|decimal2|currency}}</td>
                     </tr>
-                    <tr class="list list-energized" ng-repeat="singlecart in mycart|filter:{category:'new'}">
+                    <tr class="list list-calm" ng-repeat="singlecart in mycart|filter:{category:'new'}">
                         <td>{{singlecart.productcode}}</td>
                         <td>{{singlecart.name}}</td>
                         <td>{{singlecart.mrp|decimal2|currency}}</td>
@@ -55,7 +55,7 @@
                 </tfoot>
             </table>
             
-            <div> <span class="list list-royal pull-right marker"> SCHEME </span><span class="list list-energized pull-right marker"> NEW PRODUCTS </span>
+            <div> <span class="list list-assertive pull-right marker"> SCHEME </span><span class="list list-calm pull-right marker"> NEW PRODUCTS </span>
             </div>
             <textarea ng-model="retailerdata2.remark" class="remark" placeholder="Please enter your remark."></textarea>
             <button class="button button-royal button-block" ng-show="firstclick==0" ng-click="sendOrder(retailerdata2);">Confirm Order</button>

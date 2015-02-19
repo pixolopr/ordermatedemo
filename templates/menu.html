@@ -15,10 +15,10 @@
         <ion-content class="has-header">
             <ion-list class="menu-item"  ng-show="setslide();">
                     <div nav-clear menu-close href="#" ng-repeat="category in categorynamedata">
-                    <h4 style="padding:10px;color:white;background:#b22222;">{{category.name}}</h4>
+                    <h4 style="padding:10px;color:white;background:#b22222;">Mobile Phones</h4>
 
                     
-                    <ion-item  ng-click="changecategory(subcategory.id);" ng-repeat="subcategory in category.subcategory" nav-clear  >
+                    <ion-item  ng-click="changecategory(subcategory.id);" ng-repeat="subcategory in categorynamedata" nav-clear  >
                         <span style="margin-left:20px;">{{subcategory.name}}</span>
                     </ion-item>
                     

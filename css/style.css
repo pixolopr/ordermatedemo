@@ -54,13 +54,13 @@ a {
 .table tr td {
     text-align: left;
     padding: 11px;
-    border-bottom: 1px solid #8a6de9;
+    border-bottom: 1px solid #f7a961;
 }
 .table {
     width: 100%;
     padding: 10px;
-    border-left: 1px solid #8a6de9;
-    border-right: 1px solid #8a6de9;
+    border-left: 1px solid #f7a961;
+    border-right: 1px solid #f7a961;
 }
 input.navbox {
     padding: 10px;
@@ -73,7 +73,7 @@ input.inputborder {
     margin-left: 0px;
     text-align: center;
     font-size: 17px;
-    background: #8a6de9;
+    background: #f7a961;
     margin-top: 2px;
     border-radius: 5px;
     color: white;
@@ -90,7 +90,7 @@ input.inputborder {
 .field {
     /* box-shadow: 0 0 0 1px rgba(31, 118, 237, 0.3) inset; */
     /*border-color: #552bdf;*/
-    background: #8a6de9;
+    background: #f7a961;
     border-radius: 100%;
     background: -moz-linear-gradient(top, #1f76ed 0%, #70edfe 100%);
     background: -ms-linear-gradient(top, #1f76ed 0%, #70edfe 100%);
@@ -162,10 +162,11 @@ input.inputborder {
 .bar .title {
     font-weight: 600;
     font-size: 18px;
+    font-family: FertigoPro;
 }
 .tableheader {
     color: white;
-    background: #8a6de9;
+    background: #f7a961;
     padding: 10px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -173,7 +174,7 @@ input.inputborder {
 .tallyreport {
     float: right;
     font-size: 140%;
-    background: #8a6de9;
+    background: #f7a961;
     padding: 10px;
     color: white;
     border-radius: 6px;
@@ -184,7 +185,7 @@ input.inputborder {
 }
 .bar-assertive .button {
     border-color: #A21F1F;
-    background-color: #8a6de9;
+    background-color: #f7a961;
     color: #fff;
 }
 .table2 {
@@ -220,8 +221,8 @@ th {
     padding-top: 8px;
     padding-bottom: 8px;
     min-height: 30px;
-    background-color: #FFE6E6;
-    color: #b22;
+    background-color: rgba(247, 169, 97, 0.28);
+    color: #f7a961;
     font-weight: bold;
     border-color: #FCD8D8;
 }
@@ -234,11 +235,15 @@ th {
 }
 .list.list-royal {
     color: white;
-    background: #8a6de9;
+    background: #f7a961;
 }
-.list.list-energized {
+.list.list-assertive {
     color: white;
-    background: #f0b840;
+    background: #b22222;
+}
+.list.list-calm {
+    color: white;
+    background: #1aacc3;
 }
 .marker {
     padding: 10px;
@@ -307,5 +312,12 @@ p.info {
     height: 100px;
 }
 input {
- text-transform: none !important;
+    text-transform: none !important;
+}
+@font-face {
+    font-family: FertigoPro;
+    src: url(Fertigo.ttf);
+}
+.fertigopro {
+    font-family: FertigoPro;
 }
