@@ -138,7 +138,7 @@ angular.module('starter.controllers', ['ngCordova', 'myservices', 'mydatabase', 
 
     $scope.user = MyServices.getuser();
     $scope.logout = function () {
-        $.jStorage.flush();
+        $.jStorage.flush("user");
         user = undefined;
         var emptycart = [];
         MyServices.setcart(emptycart);
